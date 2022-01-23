@@ -1,5 +1,7 @@
 # automated_pdf_editor_and_mail_sender
 
+# Go through "Task description.txt" file for clear understanding of task
+
 # Description of code:
   1. app.py file has the whole pipeline.
   2. convert.py module is built with all functions needed for conversion and extraction of data from binary and, to create subject for each mail.
