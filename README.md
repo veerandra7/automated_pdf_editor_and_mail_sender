@@ -9,7 +9,8 @@
   4. pdf_convert.py module is for attaching logo and texts on pdf based on location. "output_email_attachment.pdf" is the example for this
 
 # How to run:
-  1. Create environment with the help of 'environment.yml' file, with the command "conda env create -f environment.yml"
+  1. Create environment with the help of 'environment.yml' file, with the command below 
+      "conda env create -f environment.yml"
   2. configure your email id(gmail) and password in "mailsender.py" file.
   3. Make sure that your privacy setting in gmail is turned ON to “Less secure apps”.
   4. Now, run "app.py"
