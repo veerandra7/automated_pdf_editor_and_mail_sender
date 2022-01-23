@@ -1,6 +1,6 @@
 # automated_pdf_editor_and_mail_sender
 
-# Go through "Task description.txt" file for clear understanding of task
+  1.Go through "Task description.txt" file for clear understanding of task
 
 # Description of code:
   1. app.py file has the whole pipeline.
