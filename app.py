@@ -35,6 +35,8 @@ cols = df1.columns
 
 if 'Status' not in cols:
     df1['Status'] = 'unsent'
+elif 'Status' in cols:
+    df1['Status'] = np.where(df1['Status'].isnull(),'unsent','unsent')
 
 for i in range(len(emails)):
     if df1['Status'].loc[i] == 'unsent':
